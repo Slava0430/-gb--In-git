@@ -155,6 +155,11 @@ git log –follow[file]
 
 ![git-log-follow](git-photo/git-log-follow.png)
 
+```
+git log --oneline
+```
+*This command is used to list the version history for the current branch, in a compressed form. Only the commit number and the comment.* 
+
 ### git show
 ```sh
 git show [commit]
