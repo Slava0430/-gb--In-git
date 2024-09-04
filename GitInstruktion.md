@@ -47,3 +47,7 @@
 
 
 # Изменения для Pull Request
+1. Сделал fork в github
+2. Создал папку и сделал git clone
+3. Создал новую вестку changes
+4. Сохранил файл и сделал git commit
