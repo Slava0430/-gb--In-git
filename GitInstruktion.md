@@ -1,5 +1,7 @@
 # Памятка по git и его основнные команды
-Изменили Данный файл Azim_Kurbonboev
+
+Изменили Данный файл Yaroslav_Sandov
+
 ## I. git command
 1. git init- иниилизация репозитория 
 2. git status- текущий статус гит
