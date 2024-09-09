@@ -44,3 +44,38 @@
 * Фиксируем изменения (делаем коммиты) 
 * Отправляем свою версию в свой GitHub 
 * На сайте GitHub нажимаем кнопку pull request
+
+## Краткая инструкция по работе с удаленными репозиториями
+
+Добавление удалённого репозитория:  
+*git remote add <имя> <URL>*  
+Пример:
+*git remote add origin https://github.com/username/repo.git*
+
+Просмотр удалённых репозиториев:  
+*git remote -v*  
+Эта команда покажет все настроенные удалённые репозитории и их URL.
+Получение изменений из удалённого репозитория:  
+*git fetch <имя>*
+Пример:  
+*git fetch origin*
+
+Слияние изменений из удалённого репозитория:  
+*git pull <имя> <ветка>*  
+Пример:  
+*git pull origin main*
+
+Отправка изменений в удалённый репозиторий:  
+*git push <имя> <ветка>*   
+Пример:  
+*git push origin main*
+
+Удаление удалённого репозитория:  
+*git remote remove <имя>*  
+Пример:  
+*git remote remove origin*
+
+Изменение URL удалённого репозитория:  
+*git remote set-url <имя> <новый URL>*  
+Пример:  
+*git remote set-url origin https://github.com/username/new-repo.git*
